@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Return Types in Web API
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "return_type_in_webapi", "web_api\2 - Return Types in Web API\return_type_in_webapi\return_type_in_webapi.csproj", "{36A79F03-ED62-4246-B7CB-E700CFDBE2D5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Principle of REST", "3 - Principle of REST", "{6679190A-7B66-424F-9849-B936D51037A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "principle_of_rest_architecture", "web_api\3 - Principle of REST\principle_of_rest_architecture\principle_of_rest_architecture.csproj", "{B3A77FA3-02AE-433F-9BF7-361A2E665E7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,10 @@ Global
 		{36A79F03-ED62-4246-B7CB-E700CFDBE2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36A79F03-ED62-4246-B7CB-E700CFDBE2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36A79F03-ED62-4246-B7CB-E700CFDBE2D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A77FA3-02AE-433F-9BF7-361A2E665E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A77FA3-02AE-433F-9BF7-361A2E665E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A77FA3-02AE-433F-9BF7-361A2E665E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A77FA3-02AE-433F-9BF7-361A2E665E7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +44,8 @@ Global
 		{0008DE83-C554-41A2-8799-7BB33BF95624} = {E4054971-33CB-4FAD-998A-FDFE27E1C888}
 		{99C7576F-458E-4FD8-98E9-8829A8B20A95} = {38768ACF-1098-4268-A3A4-044C6A969A53}
 		{36A79F03-ED62-4246-B7CB-E700CFDBE2D5} = {99C7576F-458E-4FD8-98E9-8829A8B20A95}
+		{6679190A-7B66-424F-9849-B936D51037A2} = {38768ACF-1098-4268-A3A4-044C6A969A53}
+		{B3A77FA3-02AE-433F-9BF7-361A2E665E7D} = {6679190A-7B66-424F-9849-B936D51037A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F38CF90-F91A-45D4-83A5-B66267016FA8}
