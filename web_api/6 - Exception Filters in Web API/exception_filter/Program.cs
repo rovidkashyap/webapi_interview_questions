@@ -1,17 +1,19 @@
-using exception_filters.Controllers;
+using exception_filter.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<CustomExceptionFilter>();    // Register the Filter with DI Container
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//  Register Exception Filter Globally.
 builder.Services.AddControllers(options =>
 {
-    options.Filters.Add<CustomExceptionFilter>();   // Register `ExceptionFilter`
+    options.Filters.Add<CustomExceptionFilter>();
 });
 
 var app = builder.Build();
@@ -22,8 +24,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseMiddleware<ExceptionMiddleware>();   // Register Middleware Class
 
 app.UseHttpsRedirection();
 
