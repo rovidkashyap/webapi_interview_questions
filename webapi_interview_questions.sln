@@ -31,7 +31,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exception_filter", "web_api
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - Error Handling in Web API", "7 - Error Handling in Web API", "{8521FA8A-D134-4B14-84EF-B79B55719A4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "error_handling_in_webapi", "web_api\7 - Error Handling in Web API\error_handling_in_webapi\error_handling_in_webapi.csproj", "{C88F70C8-5B54-442A-9C64-540D865D27D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "error_handling_in_webapi", "web_api\7 - Error Handling in Web API\error_handling_in_webapi\error_handling_in_webapi.csproj", "{C88F70C8-5B54-442A-9C64-540D865D27D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8 - MediaTypeFormatters", "8 - MediaTypeFormatters", "{02FA7E3C-4E45-40CB-911A-E70F5FA7CF01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Formatters in ASP.Net Web API", "Formatters in ASP.Net Web API", "{1AC93106-3600-49A0-9546-FD0CCCA5E112}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Formatters in ASP.Net Core Web API", "Formatters in ASP.Net Core Web API", "{DAAF5404-74FA-42E6-8B87-03348E1D0BD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mediatype_formatters", "web_api\8 - MediaTypeFormatters\Formatters in ASP.Net Web API\mediatype_formatters\mediatype_formatters.csproj", "{97FA0DD4-BC5F-4E34-9901-3F92A9E38CC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +75,10 @@ Global
 		{C88F70C8-5B54-442A-9C64-540D865D27D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C88F70C8-5B54-442A-9C64-540D865D27D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C88F70C8-5B54-442A-9C64-540D865D27D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97FA0DD4-BC5F-4E34-9901-3F92A9E38CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97FA0DD4-BC5F-4E34-9901-3F92A9E38CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97FA0DD4-BC5F-4E34-9901-3F92A9E38CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97FA0DD4-BC5F-4E34-9901-3F92A9E38CC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +98,10 @@ Global
 		{551375E3-9504-450A-9481-CD9AEA7E7029} = {DD7F2278-4561-429A-8030-D4106B56F41B}
 		{8521FA8A-D134-4B14-84EF-B79B55719A4B} = {38768ACF-1098-4268-A3A4-044C6A969A53}
 		{C88F70C8-5B54-442A-9C64-540D865D27D7} = {8521FA8A-D134-4B14-84EF-B79B55719A4B}
+		{02FA7E3C-4E45-40CB-911A-E70F5FA7CF01} = {38768ACF-1098-4268-A3A4-044C6A969A53}
+		{1AC93106-3600-49A0-9546-FD0CCCA5E112} = {02FA7E3C-4E45-40CB-911A-E70F5FA7CF01}
+		{DAAF5404-74FA-42E6-8B87-03348E1D0BD1} = {02FA7E3C-4E45-40CB-911A-E70F5FA7CF01}
+		{97FA0DD4-BC5F-4E34-9901-3F92A9E38CC9} = {1AC93106-3600-49A0-9546-FD0CCCA5E112}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F38CF90-F91A-45D4-83A5-B66267016FA8}
