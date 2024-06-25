@@ -27,7 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IActionResult_in_web_api", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Exception Filters in Web API", "6 - Exception Filters in Web API", "{DD7F2278-4561-429A-8030-D4106B56F41B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exception_filter", "web_api\6 - Exception Filters in Web API\exception_filter\exception_filter.csproj", "{551375E3-9504-450A-9481-CD9AEA7E7029}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exception_filter", "web_api\6 - Exception Filters in Web API\exception_filter\exception_filter.csproj", "{551375E3-9504-450A-9481-CD9AEA7E7029}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - Error Handling in Web API", "7 - Error Handling in Web API", "{8521FA8A-D134-4B14-84EF-B79B55719A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "error_handling_in_webapi", "web_api\7 - Error Handling in Web API\error_handling_in_webapi\error_handling_in_webapi.csproj", "{C88F70C8-5B54-442A-9C64-540D865D27D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,10 @@ Global
 		{551375E3-9504-450A-9481-CD9AEA7E7029}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{551375E3-9504-450A-9481-CD9AEA7E7029}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{551375E3-9504-450A-9481-CD9AEA7E7029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C88F70C8-5B54-442A-9C64-540D865D27D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88F70C8-5B54-442A-9C64-540D865D27D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C88F70C8-5B54-442A-9C64-540D865D27D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C88F70C8-5B54-442A-9C64-540D865D27D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +84,8 @@ Global
 		{C5561467-13BF-4C8F-A7C8-1D3A1528EE04} = {B5013A88-65A6-4363-BEE3-6E50A36A821F}
 		{DD7F2278-4561-429A-8030-D4106B56F41B} = {38768ACF-1098-4268-A3A4-044C6A969A53}
 		{551375E3-9504-450A-9481-CD9AEA7E7029} = {DD7F2278-4561-429A-8030-D4106B56F41B}
+		{8521FA8A-D134-4B14-84EF-B79B55719A4B} = {38768ACF-1098-4268-A3A4-044C6A969A53}
+		{C88F70C8-5B54-442A-9C64-540D865D27D7} = {8521FA8A-D134-4B14-84EF-B79B55719A4B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F38CF90-F91A-45D4-83A5-B66267016FA8}
