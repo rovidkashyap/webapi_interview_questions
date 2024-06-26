@@ -79,6 +79,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17 - Securing Web API", "17
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "securing_web_api", "web_api\17 - Securing Web API\securing_web_api\securing_web_api.csproj", "{DC91B581-1427-4977-B765-64674ED1C323}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18 - HATEOS in RESTful API", "18 - HATEOS in RESTful API", "{4B0854CB-9F2D-4676-901A-1B2AEC967820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hateos_in_restful_api", "web_api\18 - HATEOS in RESTful API\hateos_in_restful_api\hateos_in_restful_api.csproj", "{59494536-598B-4B36-AEEA-6FE23F0EBD66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -157,6 +161,10 @@ Global
 		{DC91B581-1427-4977-B765-64674ED1C323}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC91B581-1427-4977-B765-64674ED1C323}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC91B581-1427-4977-B765-64674ED1C323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59494536-598B-4B36-AEEA-6FE23F0EBD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59494536-598B-4B36-AEEA-6FE23F0EBD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59494536-598B-4B36-AEEA-6FE23F0EBD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59494536-598B-4B36-AEEA-6FE23F0EBD66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -199,6 +207,8 @@ Global
 		{9E85DC83-A7AB-460A-8FAF-BD676FD2B3C7} = {337FB13F-E7C4-4642-9EE2-DA18761E709E}
 		{0D29DA7B-0447-4A5F-9AB9-B7A164E701E4} = {38768ACF-1098-4268-A3A4-044C6A969A53}
 		{DC91B581-1427-4977-B765-64674ED1C323} = {0D29DA7B-0447-4A5F-9AB9-B7A164E701E4}
+		{4B0854CB-9F2D-4676-901A-1B2AEC967820} = {38768ACF-1098-4268-A3A4-044C6A969A53}
+		{59494536-598B-4B36-AEEA-6FE23F0EBD66} = {4B0854CB-9F2D-4676-901A-1B2AEC967820}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F38CF90-F91A-45D4-83A5-B66267016FA8}
