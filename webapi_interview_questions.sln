@@ -71,6 +71,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15 - Filters in Web API", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "filters_in_web_api", "web_api\15 - Filters in Web API\filters_in_web_api\filters_in_web_api.csproj", "{1F451AC9-5BA7-4C58-8148-0AADBB285CFC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16 - API Versioning in Web API", "16 - API Versioning in Web API", "{337FB13F-E7C4-4642-9EE2-DA18761E709E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api_versioning_in_web_api", "web_api\16 - API Versioning in Web API\api_versioning_in_web_api\api_versioning_in_web_api.csproj", "{9E85DC83-A7AB-460A-8FAF-BD676FD2B3C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,10 @@ Global
 		{1F451AC9-5BA7-4C58-8148-0AADBB285CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F451AC9-5BA7-4C58-8148-0AADBB285CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F451AC9-5BA7-4C58-8148-0AADBB285CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E85DC83-A7AB-460A-8FAF-BD676FD2B3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E85DC83-A7AB-460A-8FAF-BD676FD2B3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E85DC83-A7AB-460A-8FAF-BD676FD2B3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E85DC83-A7AB-460A-8FAF-BD676FD2B3C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -179,6 +187,8 @@ Global
 		{2705E965-24C1-4B8A-B2CD-96E28E234C37} = {E5CBB4EB-F64C-4780-BF91-554350AF0747}
 		{0F59D54E-E53E-4F83-9CF2-CFF0E3D8AFFF} = {38768ACF-1098-4268-A3A4-044C6A969A53}
 		{1F451AC9-5BA7-4C58-8148-0AADBB285CFC} = {0F59D54E-E53E-4F83-9CF2-CFF0E3D8AFFF}
+		{337FB13F-E7C4-4642-9EE2-DA18761E709E} = {38768ACF-1098-4268-A3A4-044C6A969A53}
+		{9E85DC83-A7AB-460A-8FAF-BD676FD2B3C7} = {337FB13F-E7C4-4642-9EE2-DA18761E709E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F38CF90-F91A-45D4-83A5-B66267016FA8}
