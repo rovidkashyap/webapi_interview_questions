@@ -59,6 +59,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12 - Content Negotiation", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "content_negotiation_in_web_api", "web_api\12 - Content Negotiation\content_negotiation_in_web_api\content_negotiation_in_web_api.csproj", "{C8A557FD-F38D-43F3-96E5-FE145FA8DD89}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13 - Default Media-Type Supported", "13 - Default Media-Type Supported", "{FDD809B9-2391-4A21-89DB-62965D9F5C53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "default_mediatype_supported", "web_api\13 - Default Media-Type Supported\default_mediatype_supported\default_mediatype_supported.csproj", "{167106DF-5D1E-4931-8B16-1A2A0BABE99B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,10 @@ Global
 		{C8A557FD-F38D-43F3-96E5-FE145FA8DD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8A557FD-F38D-43F3-96E5-FE145FA8DD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8A557FD-F38D-43F3-96E5-FE145FA8DD89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167106DF-5D1E-4931-8B16-1A2A0BABE99B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167106DF-5D1E-4931-8B16-1A2A0BABE99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167106DF-5D1E-4931-8B16-1A2A0BABE99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167106DF-5D1E-4931-8B16-1A2A0BABE99B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +157,8 @@ Global
 		{6DCB4E37-8A56-4B2D-83BB-E1E8D134E1F1} = {A44580DA-B8C9-4331-81B8-455323141AF9}
 		{222111D9-C10C-4602-9959-954AFF0A8DF7} = {38768ACF-1098-4268-A3A4-044C6A969A53}
 		{C8A557FD-F38D-43F3-96E5-FE145FA8DD89} = {222111D9-C10C-4602-9959-954AFF0A8DF7}
+		{FDD809B9-2391-4A21-89DB-62965D9F5C53} = {38768ACF-1098-4268-A3A4-044C6A969A53}
+		{167106DF-5D1E-4931-8B16-1A2A0BABE99B} = {FDD809B9-2391-4A21-89DB-62965D9F5C53}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F38CF90-F91A-45D4-83A5-B66267016FA8}
