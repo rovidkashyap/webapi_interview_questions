@@ -31,6 +31,7 @@ namespace routing_in_web_api.Controllers
         public IActionResult GetProductById(int id)
         {
             // Implementation
+            return Ok(id);
         }
 
         [HttpPost]

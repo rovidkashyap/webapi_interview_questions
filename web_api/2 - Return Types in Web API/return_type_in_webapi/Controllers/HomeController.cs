@@ -91,21 +91,22 @@ namespace return_type_in_webapi.Controllers
         [HttpGet]
         public async Task<MyModel> GetAsync()
         {
-            return await _service.GetModelAsync();  // No Implementation of Service class will throw compile-time error.
+            //return await _service.GetModelAsync();  // No Implementation of Service class will throw compile-time error.
+            return new MyModel { Id = 1, Name = "Data" };
         }
 
         [HttpGet]
         public async Task<IActionResult> GetActionResultAsync()
         {
-            var model = await _service.GetModelAsync(); // Same as above, not implemented service class throw compile-time error.
-            return Ok(model);
+            //var model = await _service.GetModelAsync(); // Same as above, not implemented service class throw compile-time error.
+            return Ok();
         }
 
         // `IEnumerable<T>` and `IQueryable<T>` Return Type
         [HttpGet]
         public IEnumerable<MyModel> GetAll()
         {
-            return _context.MyModel.ToList();   // Not Implemented context class will throw compile-time error.
+            yield return new MyModel { Id = 1, Name = "Dummy" };
         }
 
         // `JsonResult` Return Type

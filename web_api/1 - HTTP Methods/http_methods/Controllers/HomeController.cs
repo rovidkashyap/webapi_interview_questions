@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 
 namespace http_methods.Controllers
@@ -16,6 +17,7 @@ namespace http_methods.Controllers
         public IActionResult GetResource()
         {
             // Implementation to retirve resource
+            return Ok();
         }
 
         // Submit data to server to create a new resource. The server processes the data enclosed in the request.
@@ -23,6 +25,7 @@ namespace http_methods.Controllers
         public IActionResult CreateResource([FromBody] ResourceModel resource)
         {
             // Implementation to create resource
+            return Ok();
         }
 
         // Update an existing resource on the server. It replace the current representation of target
@@ -31,6 +34,7 @@ namespace http_methods.Controllers
         public IActionResult UpdateResource(int id, [FromBody] ResourceModel resource)
         {
             // Implementation to update resource
+            return Ok();
         }
 
         // Removes the specified resource from the server
@@ -38,6 +42,7 @@ namespace http_methods.Controllers
         public IActionResult DeleteResource(int id)
         {
             // Implementation to delete resource
+            return Ok();
         }
 
         // Applies partial modifications to a resource. Unlike PUT, which replace the entire resource.
@@ -46,6 +51,7 @@ namespace http_methods.Controllers
         public IActionResult PatchResource(int id, [FromBody] JsonPatchDocument<ResourceModel> patchDoc)
         {
             // Implementation to patch resource
+            return Ok();
         }
 
         // Similar to GET but without the response body. It's used to retrieve the headers of a resource.
@@ -53,6 +59,7 @@ namespace http_methods.Controllers
         public IActionResult HeadResource()
         {
             // Implementation to retrieve headers
+            return Ok();
         }
 
         // Describes the communication options for the target resource. It allows the client to determine
@@ -61,6 +68,13 @@ namespace http_methods.Controllers
         public IAsyncResult OptionsResource()
         {
             // Implementation to retrieve communication options
+            return null;
         }
+    }
+
+    public class ResourceModel
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
