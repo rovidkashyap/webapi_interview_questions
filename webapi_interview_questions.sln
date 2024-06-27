@@ -103,6 +103,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "23 - Authorization in Web A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "authorization_in_web_api", "web_api\23 - Authorization in Web API\authorization_in_web_api\authorization_in_web_api.csproj", "{F3CB07F9-6771-4BA7-8189-73BD42DDD995}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "24 - JWT in Web API", "24 - JWT in Web API", "{A4CB2632-940C-499B-B71E-46AF4C05F171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jwt_in_web_api", "web_api\24 - JWT in Web API\jwt_in_web_api\jwt_in_web_api.csproj", "{4FB8FEBC-EE2F-4BB0-83CC-DAAA09721411}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -205,6 +209,10 @@ Global
 		{F3CB07F9-6771-4BA7-8189-73BD42DDD995}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3CB07F9-6771-4BA7-8189-73BD42DDD995}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3CB07F9-6771-4BA7-8189-73BD42DDD995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB8FEBC-EE2F-4BB0-83CC-DAAA09721411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB8FEBC-EE2F-4BB0-83CC-DAAA09721411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB8FEBC-EE2F-4BB0-83CC-DAAA09721411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB8FEBC-EE2F-4BB0-83CC-DAAA09721411}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -259,6 +267,8 @@ Global
 		{6F395970-D67D-47C6-B0EB-782360AADDC1} = {4623ED2E-3186-4E8D-B780-4495B04C47D0}
 		{7A124951-EC52-4E57-AAAB-A99A5C13475B} = {38768ACF-1098-4268-A3A4-044C6A969A53}
 		{F3CB07F9-6771-4BA7-8189-73BD42DDD995} = {7A124951-EC52-4E57-AAAB-A99A5C13475B}
+		{A4CB2632-940C-499B-B71E-46AF4C05F171} = {38768ACF-1098-4268-A3A4-044C6A969A53}
+		{4FB8FEBC-EE2F-4BB0-83CC-DAAA09721411} = {A4CB2632-940C-499B-B71E-46AF4C05F171}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F38CF90-F91A-45D4-83A5-B66267016FA8}
