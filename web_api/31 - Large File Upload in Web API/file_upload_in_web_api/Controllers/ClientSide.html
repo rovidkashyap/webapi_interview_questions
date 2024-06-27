@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>File Upload</title>
+    <script>async function uploadFile() {
+    const fileInput = document.getElementById('fileInput');
+    const file = fileInput.files[0];
+    const chunkSize = 1024 * 1024; // 1MB chunks
+    const totalChunks = Math.ceil(file.size / chunkSize);
+    const fileName = file.name;
+
+    for (let i = 0; i < totalChunks; i++) {
+        const start = i * chunkSize;
+        const end = Math.min(file.size, start + chunkSize);
+        const chunk = file.slice(start, end);
+
+        const formData = new FormData();
+        formData.append('chunk', chunk);
+        formData.append('fileName', fileName);
+        formData.append('chunkNumber', i);
+
+        await fetch('/api/fileupload/uploadchunk', {
+            method: 'POST',
+            body: formData
+        });
+    }
+
+    const completeFormData = new FormData();
+    completeFormData.append('fileName', fileName);
+    completeFormData.append('totalChunks', totalChunks);
+
+    await fetch('/api/fileupload/completeupload', {
+        method: 'POST',
+        body: completeFormData
+    });
+
+    alert('File upload complete!');
+}</script>
+</head>
+<body>
+    <input type="file" id="fileInput" />
+    <button onclick="uploadFile()">Upload</button>
+</body>
+</html>
