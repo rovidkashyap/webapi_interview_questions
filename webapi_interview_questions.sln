@@ -41,63 +41,67 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Formatters in ASP.Net Core 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mediatype_formatters", "web_api\8 - MediaTypeFormatters\Formatters in ASP.Net Web API\mediatype_formatters\mediatype_formatters.csproj", "{97FA0DD4-BC5F-4E34-9901-3F92A9E38CC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mediatype_formatters", "web_api\8 - MediaTypeFormatters\Formatters in ASP.Net Core Web API\mediatype_formatters\mediatype_formatters.csproj", "{CFA6CE79-5F45-40BE-BD61-D235F6012703}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mediatype_formatters", "web_api\8 - MediaTypeFormatters\Formatters in ASP.Net Core Web API\mediatype_formatters\mediatype_formatters.csproj", "{CFA6CE79-5F45-40BE-BD61-D235F6012703}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 - CORS Policy in Web API", "9 - CORS Policy in Web API", "{678D997E-B3F9-45E8-AE04-5415BA39A452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cors_policy", "web_api\9 - CORS Policy in Web API\cors_policy\cors_policy.csproj", "{F2CA1256-ABEA-40EC-89DD-6031D65E91FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cors_policy", "web_api\9 - CORS Policy in Web API\cors_policy\cors_policy.csproj", "{F2CA1256-ABEA-40EC-89DD-6031D65E91FD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 - Web API 2.0", "10 - Web API 2.0", "{3700993B-8101-4D87-B8F8-4205BE5562FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web_api_2.0", "web_api\10 - Web API 2.0\web_api_2.0\web_api_2.0.csproj", "{82029900-03C3-4080-A7B4-E0A6EA3187B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "web_api_2.0", "web_api\10 - Web API 2.0\web_api_2.0\web_api_2.0.csproj", "{82029900-03C3-4080-A7B4-E0A6EA3187B3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 - Return_JSON_data_only", "11 - Return_JSON_data_only", "{A44580DA-B8C9-4331-81B8-455323141AF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "return_json_data_only", "web_api\11 - Return_JSON_data_only\return_json_data_only\return_json_data_only.csproj", "{6DCB4E37-8A56-4B2D-83BB-E1E8D134E1F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "return_json_data_only", "web_api\11 - Return_JSON_data_only\return_json_data_only\return_json_data_only.csproj", "{6DCB4E37-8A56-4B2D-83BB-E1E8D134E1F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12 - Content Negotiation", "12 - Content Negotiation", "{222111D9-C10C-4602-9959-954AFF0A8DF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "content_negotiation_in_web_api", "web_api\12 - Content Negotiation\content_negotiation_in_web_api\content_negotiation_in_web_api.csproj", "{C8A557FD-F38D-43F3-96E5-FE145FA8DD89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "content_negotiation_in_web_api", "web_api\12 - Content Negotiation\content_negotiation_in_web_api\content_negotiation_in_web_api.csproj", "{C8A557FD-F38D-43F3-96E5-FE145FA8DD89}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13 - Default Media-Type Supported", "13 - Default Media-Type Supported", "{FDD809B9-2391-4A21-89DB-62965D9F5C53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "default_mediatype_supported", "web_api\13 - Default Media-Type Supported\default_mediatype_supported\default_mediatype_supported.csproj", "{167106DF-5D1E-4931-8B16-1A2A0BABE99B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "default_mediatype_supported", "web_api\13 - Default Media-Type Supported\default_mediatype_supported\default_mediatype_supported.csproj", "{167106DF-5D1E-4931-8B16-1A2A0BABE99B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14 - Caching in Web API", "14 - Caching in Web API", "{E5CBB4EB-F64C-4780-BF91-554350AF0747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "caching_in_web_api", "web_api\14 - Caching in Web API\caching_in_web_api\caching_in_web_api.csproj", "{2705E965-24C1-4B8A-B2CD-96E28E234C37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "caching_in_web_api", "web_api\14 - Caching in Web API\caching_in_web_api\caching_in_web_api.csproj", "{2705E965-24C1-4B8A-B2CD-96E28E234C37}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15 - Filters in Web API", "15 - Filters in Web API", "{0F59D54E-E53E-4F83-9CF2-CFF0E3D8AFFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "filters_in_web_api", "web_api\15 - Filters in Web API\filters_in_web_api\filters_in_web_api.csproj", "{1F451AC9-5BA7-4C58-8148-0AADBB285CFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "filters_in_web_api", "web_api\15 - Filters in Web API\filters_in_web_api\filters_in_web_api.csproj", "{1F451AC9-5BA7-4C58-8148-0AADBB285CFC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16 - API Versioning in Web API", "16 - API Versioning in Web API", "{337FB13F-E7C4-4642-9EE2-DA18761E709E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api_versioning_in_web_api", "web_api\16 - API Versioning in Web API\api_versioning_in_web_api\api_versioning_in_web_api.csproj", "{9E85DC83-A7AB-460A-8FAF-BD676FD2B3C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_versioning_in_web_api", "web_api\16 - API Versioning in Web API\api_versioning_in_web_api\api_versioning_in_web_api.csproj", "{9E85DC83-A7AB-460A-8FAF-BD676FD2B3C7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17 - Securing Web API", "17 - Securing Web API", "{0D29DA7B-0447-4A5F-9AB9-B7A164E701E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "securing_web_api", "web_api\17 - Securing Web API\securing_web_api\securing_web_api.csproj", "{DC91B581-1427-4977-B765-64674ED1C323}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "securing_web_api", "web_api\17 - Securing Web API\securing_web_api\securing_web_api.csproj", "{DC91B581-1427-4977-B765-64674ED1C323}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18 - HATEOS in RESTful API", "18 - HATEOS in RESTful API", "{4B0854CB-9F2D-4676-901A-1B2AEC967820}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hateos_in_restful_api", "web_api\18 - HATEOS in RESTful API\hateos_in_restful_api\hateos_in_restful_api.csproj", "{59494536-598B-4B36-AEEA-6FE23F0EBD66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hateos_in_restful_api", "web_api\18 - HATEOS in RESTful API\hateos_in_restful_api\hateos_in_restful_api.csproj", "{59494536-598B-4B36-AEEA-6FE23F0EBD66}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "19 - Rate Limiting in Web API", "19 - Rate Limiting in Web API", "{583DF87D-7E09-492C-95A6-FC8852310493}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rate_limiting_in_web_api", "web_api\19 - Rate Limiting in Web API\rate_limiting_in_web_api\rate_limiting_in_web_api.csproj", "{BF404683-607A-43AC-90B6-B4F53684C47D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rate_limiting_in_web_api", "web_api\19 - Rate Limiting in Web API\rate_limiting_in_web_api\rate_limiting_in_web_api.csproj", "{BF404683-607A-43AC-90B6-B4F53684C47D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 - Optimize the Performance of Web API", "20 - Optimize the Performance of Web API", "{5B32BF4A-D2CC-454C-984F-037F8B8E5CC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "optimizing_web_api_performance", "web_api\20 - Optimize the Performance of Web API\optimizing_web_api_performance\optimizing_web_api_performance.csproj", "{AA240CF8-5BAC-4ACF-B052-6A35B677AAF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "optimizing_web_api_performance", "web_api\20 - Optimize the Performance of Web API\optimizing_web_api_performance\optimizing_web_api_performance.csproj", "{AA240CF8-5BAC-4ACF-B052-6A35B677AAF1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "21 - Global Exception Handling in Web API", "21 - Global Exception Handling in Web API", "{3F215A88-BE64-4800-9139-A9E1123D8098}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "global_exception_handling_in_web_api", "web_api\21 - Global Exception Handling in Web API\global_exception_handling_in_web_api\global_exception_handling_in_web_api.csproj", "{C7325270-2565-4946-B8E8-82EA43D1DFDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "global_exception_handling_in_web_api", "web_api\21 - Global Exception Handling in Web API\global_exception_handling_in_web_api\global_exception_handling_in_web_api.csproj", "{C7325270-2565-4946-B8E8-82EA43D1DFDE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "22 - Authentication in Web API", "22 - Authentication in Web API", "{4623ED2E-3186-4E8D-B780-4495B04C47D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "authentication_in_web_api", "web_api\22 - Authentication in Web API\authentication_in_web_api\authentication_in_web_api.csproj", "{6F395970-D67D-47C6-B0EB-782360AADDC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "authentication_in_web_api", "web_api\22 - Authentication in Web API\authentication_in_web_api\authentication_in_web_api.csproj", "{6F395970-D67D-47C6-B0EB-782360AADDC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "23 - Authorization in Web API", "23 - Authorization in Web API", "{7A124951-EC52-4E57-AAAB-A99A5C13475B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "authorization_in_web_api", "web_api\23 - Authorization in Web API\authorization_in_web_api\authorization_in_web_api.csproj", "{F3CB07F9-6771-4BA7-8189-73BD42DDD995}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -197,6 +201,10 @@ Global
 		{6F395970-D67D-47C6-B0EB-782360AADDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F395970-D67D-47C6-B0EB-782360AADDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F395970-D67D-47C6-B0EB-782360AADDC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3CB07F9-6771-4BA7-8189-73BD42DDD995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3CB07F9-6771-4BA7-8189-73BD42DDD995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3CB07F9-6771-4BA7-8189-73BD42DDD995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3CB07F9-6771-4BA7-8189-73BD42DDD995}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -249,6 +257,8 @@ Global
 		{C7325270-2565-4946-B8E8-82EA43D1DFDE} = {3F215A88-BE64-4800-9139-A9E1123D8098}
 		{4623ED2E-3186-4E8D-B780-4495B04C47D0} = {38768ACF-1098-4268-A3A4-044C6A969A53}
 		{6F395970-D67D-47C6-B0EB-782360AADDC1} = {4623ED2E-3186-4E8D-B780-4495B04C47D0}
+		{7A124951-EC52-4E57-AAAB-A99A5C13475B} = {38768ACF-1098-4268-A3A4-044C6A969A53}
+		{F3CB07F9-6771-4BA7-8189-73BD42DDD995} = {7A124951-EC52-4E57-AAAB-A99A5C13475B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F38CF90-F91A-45D4-83A5-B66267016FA8}
