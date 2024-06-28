@@ -5,13 +5,13 @@ Here is the List of Interview Questions for the Web API Followed by the DotNet I
 3. What are the principles of REST Architecture? <br />
 4. What are Routing and its types in Web API? <br />
 5. What is `IActionResult` in .Net Core Web API? <br />
-6. Explain Exception Filters in Web API. <br />
+6. Explain `Exception Filters` in Web API. <br />
 7. Explain Error Handling in Web API. <br />
-8. What are "MediaTypeFormatters" in ASP.Net Web API and ASP.Net Core Web API? <br />
+8. What are `MediaTypeFormatters` in ASP.Net Web API and ASP.Net Core Web API? <br />
 9. What is the CORS Issue in Web API? <br />
 10. What's new in Web API 2.0? <br />
 11. How do you make sure that Web API returns data in JSON format only? <br />
-12. What is Content-Negotiation in Web API? <br />
+12. What is `Content-Negotiation` in Web API? <br />
 13. What are Defaults Media-Type Supported by Web API? <br />
 14. What do you mean by Caching and types of caching? <br />
 15. What are Filters in ASP.Net Core Web API?<br />
@@ -36,3 +36,8 @@ Here is the List of Interview Questions for the Web API Followed by the DotNet I
 34. How would you Implement Asynchronous Methods in ASP.Net Core Web API? <br />
 35. Write a code to demonstrate dependency Injection in ASP.Net Core Web API Controller. <br />
 36. Create a Custom Action Filter to log the Execution Time of ASP.Net Core Web API Methods. <br />
+
+This is a List of Questions mostly asked during the interview of `.Net/.Net Core Developer` Profile.<br />
+Subject to Copyright.
+
+By - `Rovid Kashyap`.
