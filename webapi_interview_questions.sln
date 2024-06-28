@@ -143,6 +143,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "33 - Model Validation in We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "model_validation_in_web_api", "web_api\33 - Model Validation in Web API\model_validation_in_web_api\model_validation_in_web_api.csproj", "{60EE731C-9713-4E52-B7F2-6A2E47553A98}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "34 - Asynchronous Methods in Web API", "34 - Asynchronous Methods in Web API", "{4DDFD7D4-B206-45E7-99F9-20DA2539FD62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asynchronous_method_in_web_api", "web_api\34 - Asynchronous Methods in Web API\asynchronous_method_in_web_api\asynchronous_method_in_web_api.csproj", "{A6D1CBB8-7ABD-4434-8487-C87D18129D54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +289,10 @@ Global
 		{60EE731C-9713-4E52-B7F2-6A2E47553A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60EE731C-9713-4E52-B7F2-6A2E47553A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60EE731C-9713-4E52-B7F2-6A2E47553A98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D1CBB8-7ABD-4434-8487-C87D18129D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D1CBB8-7ABD-4434-8487-C87D18129D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D1CBB8-7ABD-4434-8487-C87D18129D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D1CBB8-7ABD-4434-8487-C87D18129D54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -359,6 +367,8 @@ Global
 		{B260E7F9-0531-4D52-BA7F-4E4165451036} = {B4C109AE-E2CF-4644-901A-07968CFF9FB0}
 		{E8086740-A5F5-48B7-A8FF-912DA3553195} = {38768ACF-1098-4268-A3A4-044C6A969A53}
 		{60EE731C-9713-4E52-B7F2-6A2E47553A98} = {E8086740-A5F5-48B7-A8FF-912DA3553195}
+		{4DDFD7D4-B206-45E7-99F9-20DA2539FD62} = {38768ACF-1098-4268-A3A4-044C6A969A53}
+		{A6D1CBB8-7ABD-4434-8487-C87D18129D54} = {4DDFD7D4-B206-45E7-99F9-20DA2539FD62}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F38CF90-F91A-45D4-83A5-B66267016FA8}
